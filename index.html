@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movimiento Parabolico</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body onload="load()">
+    <div class="container-fluid">
+        <h1>Hola mundo</h1>
+        <div class="col-sm-4" style="background-color: aqua">
+            Grafica 1
+            <div>
+                <canvas id="canvas1"></canvas>
+            </div>
+        </div>
+        <div class="col-sm-4" style="background-color: darkorange">
+            Grafica 2
+            <div>
+                <canvas id="canvas2"></canvas>
+            </div>
+        </div>
+
+        <div class="col-sm-4" style="background-color: bisque">
+            Grafica 3
+            <canvas id="canvas3"></canvas>
+        </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary btn-block btn-with-margin" onclick="draw()">Generar Graficas</button>
+    </div>
+</body>
+
+</html>
